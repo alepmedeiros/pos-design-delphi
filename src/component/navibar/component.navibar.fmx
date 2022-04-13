@@ -1,0 +1,57 @@
+object componentnavibar: Tcomponentnavibar
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  ClientHeight = 55
+  ClientWidth = 846
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 846.000000000000000000
+    Size.Height = 55.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object RecBackgroud: TRectangle
+      Align = Contents
+      Fill.Color = xFF0E9F68
+      Size.Width = 846.000000000000000000
+      Size.Height = 55.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object Layout2: TLayout
+      Align = Left
+      Size.Width = 70.000000000000000000
+      Size.Height = 55.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object Layout3: TLayout
+      Align = Right
+      Position.X = 760.000000000000000000
+      Size.Width = 86.000000000000000000
+      Size.Height = 55.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+    object Layout4: TLayout
+      Align = Right
+      Position.X = 440.000000000000000000
+      Size.Width = 320.000000000000000000
+      Size.Height = 55.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+    end
+    object ShadowEffect1: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+  end
+end

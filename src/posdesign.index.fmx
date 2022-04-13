@@ -1,0 +1,33 @@
+object pageindex: Tpageindex
+  Left = 0
+  Top = 0
+  ClientHeight = 825
+  ClientWidth = 1200
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object LayoutContainer: TLayout
+    Align = Client
+    Size.Width = 1200.000000000000000000
+    Size.Height = 825.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Contents
+      Fill.Color = xFFEAF9F4
+      Size.Width = 1200.000000000000000000
+      Size.Height = 825.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object Layout1: TLayout
+      Align = Client
+      Size.Width = 1200.000000000000000000
+      Size.Height = 825.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+end

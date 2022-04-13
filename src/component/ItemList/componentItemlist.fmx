@@ -1,0 +1,71 @@
+object componentlistitem: Tcomponentlistitem
+  Size.Width = 400.000000000000000000
+  Size.Height = 60.000000000000000000
+  Size.PlatformDefault = False
+  object LayoutContainer: TLayout
+    Align = Client
+    Size.Width = 400.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object LayoutBtnExcluir: TLayout
+      Align = Left
+      Size.Width = 60.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object LayoutButtons: TLayout
+      Align = Client
+      Size.Width = 340.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object LayoutItem: TLayout
+        Align = Left
+        Size.Width = 110.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object lblItem: TLabel
+          Align = Contents
+          StyledSettings = [Size, FontColor]
+          Margins.Left = 2.000000000000000000
+          Size.Width = 108.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          Text = 'lblItem'
+          TabOrder = 0
+        end
+      end
+      object LayoutPreco: TLayout
+        Align = Right
+        Position.X = 230.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object lblPreco: TLabel
+          Align = Contents
+          StyledSettings = [Size, FontColor]
+          Margins.Left = 2.000000000000000000
+          Size.Width = 108.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.HorzAlign = Center
+          Text = 'Label1'
+          TabOrder = 0
+        end
+      end
+      object LayoutQtd: TLayout
+        Align = Client
+        Size.Width = 120.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+  end
+end

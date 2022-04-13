@@ -1,0 +1,112 @@
+object componetCardMenu: TcomponetCardMenu
+  Size.Width = 508.000000000000000000
+  Size.Height = 303.000000000000000000
+  Size.PlatformDefault = False
+  object LayoutContainer: TLayout
+    Align = Client
+    Size.Width = 508.000000000000000000
+    Size.Height = 303.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object RecBankgroud: TRectangle
+      Align = Contents
+      Fill.Color = claWhite
+      Size.Width = 508.000000000000000000
+      Size.Height = 303.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object Layout1: TLayout
+      Align = Top
+      Size.Width = 508.000000000000000000
+      Size.Height = 90.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object ShadowEffect1: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.100000001490116100
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+      object Rectangle1: TRectangle
+        Align = Client
+        Fill.Color = claWhite
+        Size.Width = 508.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Layout2: TLayout
+        Align = Contents
+        Size.Width = 508.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Layout3: TLayout
+          Align = Right
+          Position.X = 408.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 90.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Image1: TImage
+            MultiResBitmap = <
+              item
+              end>
+            Align = Client
+            Size.Width = 100.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object Layout4: TLayout
+          Align = Client
+          Padding.Left = 20.000000000000000000
+          Padding.Top = 15.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 10.000000000000000000
+          Size.Width = 408.000000000000000000
+          Size.Height = 90.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object Label1: TLabel
+            Align = Top
+            StyledSettings = [FontColor]
+            Position.X = 20.000000000000000000
+            Position.Y = 15.000000000000000000
+            Size.Width = 383.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 18.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            Text = 'Label1'
+            TabOrder = 1
+          end
+          object Label2: TLabel
+            Align = Top
+            StyledSettings = []
+            Position.X = 20.000000000000000000
+            Position.Y = 38.000000000000000000
+            Size.Width = 383.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 15.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = xFFA9B0AE
+            Text = 'Label1'
+            TabOrder = 0
+          end
+        end
+      end
+      object SpeedButton1: TSpeedButton
+        Align = Client
+        Size.Width = 508.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end

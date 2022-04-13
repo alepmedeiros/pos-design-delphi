@@ -1,0 +1,219 @@
+object PageMain: TPageMain
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  ClientHeight = 795
+  ClientWidth = 1175
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object LayoutContainer: TLayout
+    Align = Client
+    Size.Width = 1175.000000000000000000
+    Size.Height = 795.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Layout3: TLayout
+      Align = Right
+      Position.X = 775.000000000000000000
+      Size.Width = 400.000000000000000000
+      Size.Height = 795.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Layout6: TLayout
+        Align = Bottom
+        Padding.Left = 10.000000000000000000
+        Padding.Top = 10.000000000000000000
+        Padding.Right = 10.000000000000000000
+        Padding.Bottom = 10.000000000000000000
+        Position.Y = 717.000000000000000000
+        Size.Width = 400.000000000000000000
+        Size.Height = 78.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object Layout7: TLayout
+        Align = Client
+        Padding.Left = 10.000000000000000000
+        Padding.Top = 20.000000000000000000
+        Padding.Right = 20.000000000000000000
+        Padding.Bottom = 10.000000000000000000
+        Size.Width = 400.000000000000000000
+        Size.Height = 717.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Layout11: TLayout
+          Align = Client
+          Size.Width = 370.000000000000000000
+          Size.Height = 687.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Rectangle1: TRectangle
+            Align = Client
+            Fill.Color = claWhite
+            Size.Width = 370.000000000000000000
+            Size.Height = 687.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            object Layout1: TLayout
+              Align = Top
+              Size.Width = 370.000000000000000000
+              Size.Height = 41.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              object Label1: TLabel
+                Align = Client
+                StyledSettings = [FontColor]
+                Size.Width = 370.000000000000000000
+                Size.Height = 41.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 17.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.HorzAlign = Center
+                Text = 'Checkout'
+                TabOrder = 0
+              end
+            end
+            object Layout2: TLayout
+              Align = Top
+              Position.Y = 41.000000000000000000
+              Size.Width = 370.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object Rectangle3: TRectangle
+                Align = Client
+                Fill.Color = xFFF1F1F1
+                Padding.Left = 30.000000000000000000
+                Padding.Top = 5.000000000000000000
+                Padding.Right = 10.000000000000000000
+                Padding.Bottom = 5.000000000000000000
+                Size.Width = 370.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Label2: TLabel
+                  Align = Left
+                  StyledSettings = [Style]
+                  Position.X = 30.000000000000000000
+                  Position.Y = 5.000000000000000000
+                  Size.Width = 115.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 14.000000000000000000
+                  TextSettings.FontColor = xFFB5B5B5
+                  Text = 'Name'
+                  TabOrder = 0
+                end
+                object Label3: TLabel
+                  Align = Right
+                  StyledSettings = [Style]
+                  Position.X = 296.000000000000000000
+                  Position.Y = 5.000000000000000000
+                  Size.Width = 64.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 14.000000000000000000
+                  TextSettings.FontColor = xFFB5B5B5
+                  TextSettings.HorzAlign = Trailing
+                  Text = 'Price'
+                  TabOrder = 1
+                end
+                object Label4: TLabel
+                  Align = Client
+                  StyledSettings = [Style]
+                  Size.Width = 151.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Family = 'Roboto'
+                  TextSettings.Font.Size = 14.000000000000000000
+                  TextSettings.FontColor = xFFB5B5B5
+                  TextSettings.HorzAlign = Center
+                  Text = 'QTY'
+                  TabOrder = 2
+                end
+              end
+            end
+          end
+          object ShadowEffect1: TShadowEffect
+            Distance = 3.000000000000000000
+            Direction = 45.000000000000000000
+            Softness = 0.300000011920929000
+            Opacity = 0.600000023841857900
+            ShadowColor = claBlack
+          end
+        end
+      end
+    end
+    object Layout4: TLayout
+      Align = Client
+      Size.Width = 775.000000000000000000
+      Size.Height = 795.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Layout5: TLayout
+        Align = Bottom
+        Position.Y = 642.000000000000000000
+        Size.Width = 775.000000000000000000
+        Size.Height = 153.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Layout9: TLayout
+          Align = Top
+          Padding.Left = 10.000000000000000000
+          Padding.Top = 10.000000000000000000
+          Padding.Right = 10.000000000000000000
+          Padding.Bottom = 10.000000000000000000
+          Size.Width = 775.000000000000000000
+          Size.Height = 75.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object Layout10: TLayout
+          Align = Client
+          Size.Width = 775.000000000000000000
+          Size.Height = 78.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+      end
+      object Layout8: TLayout
+        Align = Client
+        Padding.Left = 20.000000000000000000
+        Padding.Top = 20.000000000000000000
+        Padding.Right = 10.000000000000000000
+        Padding.Bottom = 10.000000000000000000
+        Size.Width = 775.000000000000000000
+        Size.Height = 642.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object ShadowEffect2: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.600000023841857900
+          ShadowColor = claBlack
+        end
+        object Layout12: TLayout
+          Align = Client
+          Size.Width = 745.000000000000000000
+          Size.Height = 612.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Rectangle2: TRectangle
+            Align = Client
+            Fill.Color = claWhite
+            Size.Width = 745.000000000000000000
+            Size.Height = 612.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+          end
+        end
+      end
+    end
+  end
+end

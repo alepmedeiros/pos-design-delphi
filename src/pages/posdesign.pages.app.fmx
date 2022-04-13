@@ -1,0 +1,33 @@
+object PagesApp: TPagesApp
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 767
+  ClientWidth = 1124
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object LayoutContainer: TLayout
+    Align = Client
+    Size.Width = 1124.000000000000000000
+    Size.Height = 767.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object LayoutNavbar: TLayout
+      Align = Top
+      Size.Width = 1124.000000000000000000
+      Size.Height = 66.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object LayoutMain: TLayout
+      Align = Client
+      Size.Width = 1124.000000000000000000
+      Size.Height = 701.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+end

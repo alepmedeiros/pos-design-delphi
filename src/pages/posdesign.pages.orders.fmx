@@ -1,0 +1,86 @@
+object PageOrders: TPageOrders
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  ClientHeight = 675
+  ClientWidth = 978
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 978.000000000000000000
+    Size.Height = 675.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    OnResize = Layout1Resize
+    object Layout4: TLayout
+      Align = Right
+      Padding.Left = 10.000000000000000000
+      Padding.Top = 20.000000000000000000
+      Padding.Right = 20.000000000000000000
+      Padding.Bottom = 20.000000000000000000
+      Position.X = 472.000000000000000000
+      Size.Width = 506.000000000000000000
+      Size.Height = 675.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Layout7: TLayout
+        Align = Client
+        Size.Width = 476.000000000000000000
+        Size.Height = 635.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Rectangle1: TRectangle
+          Align = Client
+          Fill.Color = claWhite
+          Size.Width = 476.000000000000000000
+          Size.Height = 635.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object ShadowEffect2: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.600000023841857900
+          ShadowColor = claBlack
+        end
+      end
+    end
+    object Layout5: TLayout
+      Align = Client
+      Padding.Left = 20.000000000000000000
+      Padding.Top = 20.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Padding.Bottom = 20.000000000000000000
+      Size.Width = 472.000000000000000000
+      Size.Height = 675.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Layout6: TLayout
+        Align = Client
+        Size.Width = 442.000000000000000000
+        Size.Height = 635.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Rectangle2: TRectangle
+          Align = Client
+          Fill.Color = claWhite
+          Size.Width = 442.000000000000000000
+          Size.Height = 635.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object ShadowEffect1: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.600000023841857900
+          ShadowColor = claBlack
+        end
+      end
+    end
+  end
+end
